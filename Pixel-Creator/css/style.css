@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #009EF6;
+}
+
+/* Start of Navigation */
+
+.nav-container {
+	/*border: 1px solid black;*/
+	height: 140px;
+	margin-left: 60px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	height: 140px;
+}
+
+nav ul {
+ 	display: flex;
+}
+
+nav .logo {
+
+}
+
+.logo-image {
+ 	vertical-align: middle;
+}
+
+.logo span {
+	vertical-align: middle;
+ 	width: 266px;
+	height: 56px;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 56px;
+	color: #FAFAFA;
+}
+
+.nav-items li {
+ 	list-style: none;
+ 	padding: 10px 25px 10px 25px;
+	text-align: center;
+}
+
+.nav-items li a {
+	text-decoration: none;
+	color: #EBEBEB;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 35px;
+}
+
+#signup-item {
+	background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+	margin-right: 30px;
+	border-radius: 13px;
+}
+
+/* End of Navigation */
+
+/* Start Main Content */
+
+.header-container {
+	/*border: 1px solid black;*/
+	margin-left: 60px;
+	display: flex;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-content {
+	/*border: 1px solid green;*/
+
+}
+
+.hero-content h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 82px;
+	color: #FFFFFF;
+}
+
+.hero-content p {
+	margin-top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	color: #E5E5E5;
+}
+
+.hero-content div {
+	/*border: 1px solid black;*/
+	width: 40%;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+
+	background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+	border-radius: 13px;
+}
+
+.hero-content div a {
+	color: #E5E5E5;
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.hero-image {
+	/*border: 1px solid blue;*/
+}
+
+.socials {
+	/*border: 1px solid yellow;*/
+	margin-top: 60px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
