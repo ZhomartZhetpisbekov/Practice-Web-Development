@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation Bar */
+
+.container {
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,
+		rgba(0, 0, 0, 0.5)50%), url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+
+.navbar {
+	width: 85%;
+	height: 75px;
+	margin: auto;
+	/*border: 1px solid yellow;*/
+}
+
+.icon {
+	width: 200px;
+	float: left;
+	height: 70px;
+	/*border: 1px solid lightskyblue;*/
+}
+
+.logo {
+	color: #ff7200;
+	font-family: Arial;
+	font-size: 35px;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+.nav-items {
+	width: 645px;
+	height: 75px;
+	float: left;
+	/*border: 1px solid lightpink;*/
+}
+
+.nav-items ul {
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-items li {
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+.nav-items li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.2s ease-in-out;
+}
+
+.nav-items li a:hover {
+	color: #ff7200;
+}
+
+.search-container {
+	/*border: 1px solid lightgreen;*/
+	float: left;
+	width: 330px;
+	margin-left: 15px;
+}
+
+.search-input {
+	font-family: Arial;
+	width: 200px;
+	height: 40px;
+	margin-top: 13px;
+	background: transparent;
+	border: 1px solid #ff7200;
+	color: #fff;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.search-button {
+	width: 100px;
+	height: 40px;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+}
+
+.search-button:focus {
+	outline: none;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+/* Main Content */
+
+.main-content {
+	/*border: 1px solid lightcoral;*/
+	width: 85%;
+	height: 680px;
+	margin: auto;
+}
+
+/* text-content */
+
+.text-content {
+	/*border: 1px solid lightskyblue;*/
+	width: 65%;
+	float: left;
+	padding-left: 17px;
+}
+
+.text-content h1 {
+	font-family: "Times New Roman";
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 3px;
+	padding-top: 180px;
+}
+
+.text-content h1 span {
+	color: #ff7200;
+	font-size: 65px;
+}
+
+.text-content p {
+	padding-top: 10px;
+	font-family: Arial;
+	font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.join-button {
+	margin-top: 30px;
+	width: 165px;
+	height: 50px;
+	background: #ff7200;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.join-button a {
+	text-decoration: none;
+	color: #000;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+}
+
+.join-button:hover {
+	background: #fff;
+}
+
+/* form-content */
+
+.form-content {
+	/*border: 1px solid lightgoldenrodyellow;*/
+	width: 298px;
+	float: left;
+	margin-left: 45px;
+	text-align: center;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.form-content h2 {
+	width: 80%;
+	color: #ff7200;
+	background: #fff;
+	margin: auto;
+	font-family: sans-serif;
+	font-size: 22px;
+	border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form-content input {
+	width: 80%;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.form-content input:focus {
+	outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.login-button {
+	width: 80%;
+	height: 40px;
+	background: #ff7200;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.login-button:hover {
+	background: #fff;
+    color: #ff7200;
+}
+
+.login-button a {
+	text-decoration: none;
+    color: #000;
+    letter-spacing: 1.2px;
+}
+
+p#no-account-par {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p#no-account-par a {
+	text-decoration: none;
+	color: #ff7200;
+}
+
+p#login-with-par {
+	padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
