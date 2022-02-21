@@ -29,6 +29,7 @@
 }
 
 .logo {
+	text-decoration: none;
 	color: #ff7200;
 	font-family: Arial;
 	font-size: 35px;
@@ -200,7 +201,7 @@
     padding-top: 7px;
     padding-bottom: 7px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .form-content input {
@@ -214,7 +215,7 @@
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: sans-serif;
 }
 
@@ -237,6 +238,7 @@
     cursor: pointer;
     color: #fff;
     transition: 0.4s ease;
+    margin-top: 10px;
 }
 
 .login-button:hover {
@@ -268,7 +270,31 @@ p#login-with-par {
     padding-bottom: 10px;
     text-align: center;
     color: #fff;
+    font-size: 14px;
 }
+
+.socials {
+	text-align: left;
+}
+
+.socials a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials ion-icon {
+	color: #fff;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.socials ion-icon:hover {
+	color: #ff7200;
+}
+
 
 
 
